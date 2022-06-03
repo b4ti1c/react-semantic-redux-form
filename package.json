@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "build": "babel src --out-dir dist",
-    "prepublish": "yarn run build"
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "react": "^15.6.1",
